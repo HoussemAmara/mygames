@@ -34,14 +34,8 @@ CREATE TABLE IF NOT EXISTS `new_table` (
   `username` varchar(255) NOT NULL,
   `password` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+);
 
---
--- Déchargement des données de la table `new_table`
---
-
-INSERT INTO `new_table` (`id`, `email`, `username`, `password`) VALUES
-(10, 'houssemamara35@outlook.fr', 'houssem', 'fgfge');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
