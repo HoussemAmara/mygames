@@ -27,7 +27,8 @@
       if ($result) {
         // Set a session variable 
         $_SESSION['username'] =$username;
-        
+        header("Location: index.php");
+        exit;
       } else {
         // display an error message
         $error = "Error: " . $query . "<br>" . mysqli_error($conn); echo $error; 
